@@ -18,7 +18,7 @@
 ```bash
 # Install dependencies
 sudo pacman -Sy runc bridge-utils
-sudo pacman -S contained
+sudo pacman -S containerd
 yay -S nerdctl-full-bin
 sudo pacman -S buildkit
 
